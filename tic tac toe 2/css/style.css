@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.container {
+  height: 450px;
+  width: 450px;
+}
+.container .row {
+  display: flex;
+  height: 150px;
+}
+.row .col {
+  height: 150px;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 7rem;
+  color: #2769b4;
+}
+.row:nth-child(2) {
+  border-bottom: 6px solid #2769b4;
+  border-top: 6px solid #2769b4;
+}
+.col:nth-child(2) {
+  border-left: 6px solid #2769b4;
+  border-right: 6px solid #2769b4;
+}
+.text {
+  font-size: 3.5rem;
+  color: #313131;
+}
